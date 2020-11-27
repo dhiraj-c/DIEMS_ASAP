@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DIEMS Notices</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="log_out">Log Out</string>
+    <string name="diems_notice_board">DIEMS Notice Board</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="enter_email_forgot_password">Enter your registered email below:</string>
+    <string name="email">Email Address</string>
+    <string name="next">Submit</string>
+    <string name="enter_name">Name</string>
+    <string name="choose_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registration">Register</string>
+    <string name="preference_file_name">DIEMS ASAP Preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="diems_notice_board_about_app">This app allows students to view the college notice boards online</string>
+    <string name="app_credits">App Credits</string>
+    <string name="about_app_credits_text">This app is developed and managed by students of the Computer Science Department</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".fragment.AboutAppFragment">
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/diems_logo_round" />
+
+    <TextView
+        android:id="@+id/txtAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAppLogo"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/diems_notice_board"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAboutAppText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAppTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:justificationMode="inter_word"
+        android:text="@string/diems_notice_board_about_app"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtAppCreditsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAboutAppText"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/app_credits"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtAppCreditsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAppCreditsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:justificationMode="inter_word"
+        android:text="@string/about_app_credits_text"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
