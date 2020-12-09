@@ -42,8 +42,11 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.android.volley:volley:1.1.1'
+    // Below implementations are optional, If it gives error then remove it
     implementation platform('com.google.firebase:firebase-bom:25.4.1')
     implementation 'com.google.firebase:firebase-analytics'
+    // below line is important for notifications
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.firebase:firebase-storage-ktx'
     implementation 'com.google.firebase:firebase-database-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx'
